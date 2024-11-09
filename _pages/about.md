@@ -21,5 +21,5 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-Hello! I am a second year M.S. student (and incoming Ph.D student) at [KAIST Graduate Schoold of AI](https://gsai.kaist.ac.kr/). I am fortunate to be advised by [Minjoon Seo](https://seominjoon.github.io) in [Language & Knowledge Lab](https://LKLab.kaist.ac.kr/). Previously, I obtained a Bachelor of Business Administraion and Bachelor of Economics at Korea University. I worked as a junior economist at the Bank of Korea for 7 years.
+Hello! I am a second year M.S. student (and incoming Ph.D student) at [KAIST Graduate Schoold of AI](https://gsai.kaist.ac.kr/). I am fortunate to be advised by [Minjoon Seo](https://seominjoon.github.io) in [Language & Knowledge Lab](https://LKLab.kaist.ac.kr/). Previously, I obtained a Bachelor of Business Administraion and Bachelor of Economics at Korea University. I worked as a junior economist at the Bank of Korea for 7 years. 
   
