@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-10-10
 inline: true
 related_posts: false
 ---
-
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Our new preprint, [How Does Vision-Language Adaptation Impact the Safety of Vision Language Models?](https://arxiv.org/abs/2410.07571) is out.
