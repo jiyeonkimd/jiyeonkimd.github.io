@@ -191,10 +191,8 @@ newsletter:
 
 collections:
   news:
-    defaults:
-      layout: post
     output: true
-    permalink: /:collection/:title/
+    permalink: /news/:path/
   # projects:
   #   output: true
   #   permalink: /:collection/:title/
