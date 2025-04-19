@@ -1,7 +1,6 @@
 ---
 layout: post
-start_date: 2023-03-01
-end_date: 2025-02-28
+start_date: 2025-03-01
 inline: true
 related_posts: false
 ---
