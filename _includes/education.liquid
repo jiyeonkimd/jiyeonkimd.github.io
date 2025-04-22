@@ -9,11 +9,15 @@
         {% for item in education %}
           <tr>
             <th scope="row" style="width: 30%; vertical-align: top;">
-              {% if item.start_date and item.end_date %}
-                {% if item.expected %}
-                  {{ item.start_date | date: '%b %Y' }} - {{ item.end_date | date: '%b %Y' }} (<em>expected</em>)
+              {% if item.start_date %}
+                {% if item.end_date %}
+                  {% if item.expected %}
+                    {{ item.start_date | date: '%b %Y' }} - {{ item.end_date | date: '%b %Y' }} (<em>expected</em>)
+                  {% else %}
+                    {{ item.start_date | date: '%b %Y' }} - {{ item.end_date | date: '%b %Y' }}
+                  {% endif %}
                 {% else %}
-                  {{ item.start_date | date: '%b %Y' }} - {{ item.end_date | date: '%b %Y' }}
+                  {{ item.start_date | date: '%b %Y' }}
                 {% endif %}
               {% endif %}
             </th>
