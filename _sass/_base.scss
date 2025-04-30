@@ -831,7 +831,10 @@ footer.sticky-bottom {
     }
   }
 }
-
+// Fix stacked .periodical spacing
+.periodical + .periodical {
+  margin-top: 0;
+}
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;
