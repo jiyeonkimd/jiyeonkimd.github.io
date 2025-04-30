@@ -161,21 +161,23 @@
     {%- endcomment -%}
     {% if entry.venue %}
       <div class="periodical">
-        <strong>
+        <em>
           {{ entry.venue
             | replace: 'Oral', '<span style="color:red; font-weight:bold">Oral</span>'
             | replace: 'Spotlight', '<span style="color:blue; font-weight:bold">Spotlight</span>'
             | replace: 'Best Paper', '<span style="color:gold; font-weight:bold">Best Paper</span>'
             | markdownify }}
-        </strong>
+        </em>
       </div>
     {% endif %}
 
     {% if entry.workshop %}
       <div class="periodical">
-        {{ entry.workshop
-          | replace: 'Best Paper', '<span style="color:gold; font-weight:bold">Best Paper</span>'
-          | markdownify }}
+        <em>
+          {{ entry.workshop
+            | replace: 'Best Paper', '<span style="color:gold; font-weight:bold">Best Paper</span>'
+            | markdownify }}
+        </em>
       </div>
     {% endif %}
 

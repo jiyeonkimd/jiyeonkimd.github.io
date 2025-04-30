@@ -832,6 +832,9 @@ footer.sticky-bottom {
   }
 }
 // Fix stacked .periodical spacing
+.periodical {
+  margin-bottom: 0.2em;
+}
 .periodical + .periodical {
   margin-top: 0;
 }
