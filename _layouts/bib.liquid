@@ -170,17 +170,9 @@
 
     {% if entry.workshop %}
       <div class="periodical">
-        <em>{{ entry.workshop }}</em>
-      </div>
-    {% endif %}
-
-    {% if entry.note %}
-      <div class="periodical">
-        {{ entry.note
-            | replace: 'Oral', '<strong style="color:red">Oral</strong>'
-            | replace: 'Spotlight', '<strong style="color:blue">Spotlight</strong>'
-            | replace: 'Best Paper', '<strong style="color:gold">Best Paper</strong>'
-            | markdownify }}
+        {{ entry.workshop
+          | replace: 'Best Paper', '<span style="color:gold; font-weight:bold">Best Paper</span>'
+          | markdownify }}
       </div>
     {% endif %}
 
