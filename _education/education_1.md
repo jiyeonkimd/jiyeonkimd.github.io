@@ -6,5 +6,5 @@ inline: true
 related_posts: false
 ---
 
-[Korea University](https://www.korea.edu/sites/en/index.do)
+[Korea University](https://www.korea.edu/sites/en/index.do)  
 Bachelor of Business Administration, Bachelor of Economics
