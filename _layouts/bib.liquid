@@ -158,6 +158,16 @@
       {{ periodical | strip }}
     </div>
 
+    {% if entry.venue %}
+      <div class="periodical">
+        {{ entry.venue
+          | replace: 'Oral', '<span style="color:red; font-weight:bold">Oral</span>'
+          | replace: 'Spotlight', '<span style="color:blue; font-weight:bold">Spotlight</span>'
+          | replace: 'Best Paper', '<span style="color:gold; font-weight:bold">Best Paper</span>'
+          | markdownify }}
+      </div>
+    {% endif %}
+
     {% if entry.workshop %}
       <div class="periodical">
         <em>{{ entry.workshop }}</em>
