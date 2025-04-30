@@ -163,10 +163,10 @@
       <div class="periodical">
         <em>
           {{ entry.venue
-            | replace: 'Oral', '<span style="color:red; font-weight:bold">Oral</span>'
-            | replace: 'Spotlight', '<span style="color:blue; font-weight:bold">Spotlight</span>'
-            | replace: 'Best Paper', '<span style="color:gold; font-weight:bold">Best Paper</span>'
-            | markdownify }}
+            | replace: 'Oral', '<span style="font-weight:bold">Oral</span>'
+            | replace: 'Spotlight', '<span style="font-weight:bold">Spotlight</span>'
+            | replace: 'Best Paper', '<span style="font-weight:bold">Best Paper</span>'
+          }}
         </em>
       </div>
     {% endif %}
@@ -175,8 +175,8 @@
       <div class="periodical">
         <em>
           {{ entry.workshop
-            | replace: 'Best Paper', '<span style="color:gold; font-weight:bold">Best Paper</span>'
-            | markdownify }}
+            | replace: 'Best Paper', '<span style="font-weight:bold">Best Paper</span>'
+          }}
         </em>
       </div>
     {% endif %}
