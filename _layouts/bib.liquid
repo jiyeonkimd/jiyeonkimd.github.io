@@ -157,9 +157,22 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
-    </div>
+
+    {% if entry.workshop %}
+      <div class="periodical">
+        <em>{{ entry.workshop }}</em>
+      </div>
+    {% endif %}
+
+    {% if entry.note %}
+      <div class="periodical">
+        {{ entry.note
+            | replace: 'Oral', '<strong style="color:red">Oral</strong>'
+            | replace: 'Spotlight', '<strong style="color:red">Spotlight</strong>'
+            | replace: 'Best Paper', '<strong style="color:red">Best Paper</strong>'
+            | strip }}
+      </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
