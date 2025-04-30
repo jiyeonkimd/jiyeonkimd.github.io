@@ -168,9 +168,9 @@
       <div class="periodical">
         {{ entry.note
             | replace: 'Oral', '<strong style="color:red">Oral</strong>'
-            | replace: 'Spotlight', '<strong style="color:red">Spotlight</strong>'
-            | replace: 'Best Paper', '<strong style="color:red">Best Paper</strong>'
-            | strip }}
+            | replace: 'Spotlight', '<strong style="color:blue">Spotlight</strong>'
+            | replace: 'Best Paper', '<strong style="color:gold">Best Paper</strong>'
+            | markdownify }}
       </div>
     {% endif %}
 
