@@ -24,8 +24,7 @@ Hello! I am a first-year Ph.D student at [KAIST Graduate Schoold of AI](https://
 
 My research interests include lifelong learning, neural memory, multimodal diffusion models, and interpretability.
 My long-term research goal is to develop multimodal models capable of continual improvement through interaction with dynamic environments. 
-Currently, I investigate the role of neural long-term memory in enhancing test-time adaptation. 
-Additionally, I am also exploring vision-language diffusion models to integrate both modalities within a shared latent, concept-level space.
+Currently, I am investigating how neural long-term memory can enhance test-time adaptation, and exploring diffusion-based approaches to align vision and language modalities.
 
 I hold a Bachelor's degree in Business Administration and Economics from [Korea University](https://www.korea.edu/sites/en/index.do) and a Master of Science in Artificial Intelligence from [KAIST Graduate Schoold of AI](https://gsai.kaist.ac.kr/). I previously worked as a junior economist at Bank of Korea for seven years.
 
