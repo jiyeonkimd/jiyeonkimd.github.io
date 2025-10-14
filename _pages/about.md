@@ -20,11 +20,8 @@ talks: true
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I am a first-year Ph.D student at [KAIST Graduate Schoold of AI](https://gsai.kaist.ac.kr/). I am fortunate to be advised by [Minjoon Seo](https://seominjoon.github.io) in [Language & Knowledge Lab](https://LKLab.kaist.ac.kr/). 
+Hello! I am a first-year Ph.D. student at [KAIST Graduate School of AI](https://gsai.kaist.ac.kr/). I am fortunate to be co-advised by [Hyunwoo Kim](https://hyunw.kim/) and [Minjoon Seo](https://seominjoon.github.io). 
 
-My research interests include lifelong learning, neural memory, multimodal diffusion models, and interpretability.
-My long-term research goal is to develop multimodal models capable of continual improvement through interaction with dynamic environments. 
-Currently, I am investigating how neural long-term memory can enhance test-time adaptation, and exploring diffusion-based approaches to align vision and language modalities.
+I am interested in developing models that can continually improve and reason, drawing inspiration from human cognition. My research investigates the knowledge acquisition dynamics of language models and explores architectural mechanisms for lifelong learning and hierarchical planning. Current research topics include neural memory, test-time training, and diffusion language model.
 
-I hold a Bachelor's degree in Business Administration and Economics from [Korea University](https://www.korea.edu/sites/en/index.do) and a Master of Science in Artificial Intelligence from [KAIST Graduate Schoold of AI](https://gsai.kaist.ac.kr/). I previously worked as a junior economist at Bank of Korea for seven years.
-
+I hold a Master of Science in Artificial Intelligence [KAIST Graduate School of AI](https://gsai.kaist.ac.kr/) and a Bachelor’s degree in Business Administration and Economics from [Korea University](https://www.korea.edu/sites/en/index.do). I previously worked as an economist at Bank of Korea.
