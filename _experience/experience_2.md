@@ -6,5 +6,5 @@ related_posts: false
 expected: true
 ---
 
-LG AI Research
+LG AI Research  
 Research Intern
