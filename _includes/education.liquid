@@ -17,7 +17,7 @@
                     {{ item.start_date | date: '%b %Y' }} - {{ item.end_date | date: '%b %Y' }}
                   {% endif %}
                 {% else %}
-                  {{ item.start_date | date: '%b %Y' }}
+                  {{ item.start_date | date: '%b %Y' }} - present
                 {% endif %}
               {% endif %}
             </th>
