@@ -1,6 +1,31 @@
 ---
 ---
 
+@misc{Kim2026CanLL,
+  title={Can Large Language Models Keep Up? Benchmarking Online Adaptation to Continual Knowledge Streams},
+  author={Jiyeon Kim and Hyunji Lee and Dylan Zhou and Sue Hyun Park and Seunghyun Yoon and Trung Bui and Franck Dernoncourt and Sungmin Cha and Minjoon Seo},
+  year={2026},
+  eprint={2603.07392},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2603.07392},
+  abstract={LLMs operating in dynamic real-world contexts often encounter knowledge that evolves continuously or emerges incrementally. To remain accurate and effective, models must adapt to newly arriving information on the fly. We introduce Online Adaptation to Continual Knowledge Streams(OAKS) to evaluate this capability, establishing a benchmark for online adaptation over streaming, continually updating knowledge. Specifically, the benchmark is structured as a sequence of fine-grained context chunks where facts change dynamically across time intervals. OAKS comprises two datasets: OAKS-BABI and OAKS-Novel, where individual facts evolve multiple times across context chunks. These datasets include dense annotations to measure whether models track changes accurately. Evaluating 14 models with varied inference approaches, we observe significant limitations in current methodologies. Both state-of-the-art models and agentic memory systems fail to adapt robustly on OAKS, demonstrating delays in state-tracking and susceptibility to distraction within streaming environments.},
+  venue={Preprint},
+  selected={true}
+}
+
+@misc{Lee2025UnderstandingAE,
+  title={Understanding and Enhancing Mamba-Transformer Hybrids for Memory Recall and Language Modeling}, 
+  author={Hyunji Lee and Wenhao Yu and Hongming Zhang and Kaixin Ma and Jiyeon Kim and Dong Yu and Minjoon Seo},
+  year={2025},
+  eprint={2510.26912},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2510.26912},
+  abstract={Hybrid models that combine state space models (SSMs) with attention mechanisms have shown strong performance by leveraging the efficiency of SSMs and the high recall ability of attention. However, the architectural design choices behind these hybrid models remain insufficiently understood. In this work, we analyze hybrid architectures through the lens of memory utilization and overall performance, and propose a complementary method to further enhance their effectiveness. We first examine the distinction between sequential and parallel integration of SSM and attention layers. Our analysis reveals several interesting findings, including that sequential hybrids perform better on shorter contexts, whereas parallel hybrids are more effective for longer contexts. We also introduce a data-centric approach of continually training on datasets augmented with paraphrases, which further enhances recall while preserving other capabilities. It generalizes well across different base models and outperforms architectural modifications aimed at enhancing recall. Our findings provide a deeper understanding of hybrid SSM-attention models and offer practical guidance for designing architectures tailored to various use cases. Our findings provide a deeper understanding of hybrid SSM-attention models and offer practical guidance for designing architectures tailored to various use cases.},
+  workshop={EMNLP BabyLM Workshop 2025},
+  selected={true}
+}
 
 @misc{chung2025video,
   title={Video Parallel Scaling: Aggregating Diverse Frame Subsets for VideoLLMs}, 
@@ -25,7 +50,6 @@
   primaryClass={cs.CL},
   url={https://arxiv.org/abs/2505.22202}, 
   abstract={Autoregressive language models (LMs) generate one token at a time, yet human reasoning operates over higher-level abstractions - sentences, propositions, and concepts. This contrast raises a central question- Can LMs likewise learn to reason over structured semantic units rather than raw token sequences? In this work, we investigate whether pretrained LMs can be lifted into such abstract reasoning spaces by building on their learned representations. We present a framework that adapts a pretrained token-level LM to operate in sentence space by autoregressively predicting continuous embeddings of next sentences. We explore two embedding paradigms inspired by classical representation learning: 1) semantic embeddings, learned via autoencoding to preserve surface meaning; and 2) contextual embeddings, trained via next-sentence prediction to encode anticipatory structure. We evaluate both under two inference regimes: Discretized, which decodes each predicted embedding into text before re-encoding; and Continuous, which reasons entirely in embedding space for improved efficiency. Across four domains - mathematics, logic, commonsense, and planning - contextual embeddings under continuous inference show competitive performance with Chain-of-Thought (CoT) while reducing inference-time FLOPs on average by half. We also present early signs of scalability and modular adaptation. Finally, to visualize latent trajectories, we introduce SentenceLens, a diagnostic tool that decodes intermediate model states into interpretable sentences. Together, our results indicate that pretrained LMs can effectively transition to abstract, structured reasoning within latent embedding spaces.},
-  venue={Preprint},
   workshop={Oral, RAM 2: Reasoning, Attention & Memory @COLM 2025 Workshop},
   selected={true}
 }
