@@ -2,6 +2,19 @@
 ---
 
 @misc{Kim2026CanLL,
+  title={Early Decisions Matter: Proximity Bias and Initial Trajectory Shaping in Non-Autoregressive Diffusion Language Models},
+  author={Jiyeon Kim, Sungik Choi, Yongrae Jo, Moontae Lee, Minjoon Seo},
+  year={2026},
+  eprint={2604.10567},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2604.10567},
+  abstract={Diffusion-based language models (dLLMs) have emerged as a promising alternative to autoregressive language models, offering the potential for parallel token generation and bidirectional context modeling. However, harnessing this flexibility for fully non-autoregressive decoding remains an open question, particularly for reasoning and planning tasks. In this work, we investigate non-autoregressive decoding in dLLMs by systematically analyzing its inference dynamics along the temporal axis. Specifically, we uncover an inherent failure mode in confidence-based non-autoregressive generation stemming from a strong proximity bias-the tendency for the denoising order to concentrate on spatially adjacent tokens. This local dependency leads to spatial error propagation, rendering the entire trajectory critically contingent on the initial unmasking position. Leveraging this insight, we present a minimal-intervention approach that guides early token selection, employing a lightweight planner and end-of-sequence temperature annealing. We thoroughly evaluate our method on various reasoning and planning tasks and observe substantial overall improvement over existing heuristic baselines without significant computational overhead.},
+  venue={Arxiv Preprint},
+  selected={true}
+}
+
+@misc{Kim2026CanLL,
   title={Can Large Language Models Keep Up? Benchmarking Online Adaptation to Continual Knowledge Streams},
   author={Jiyeon Kim* and Hyunji Lee* and Dylan Zhou* and Sue Hyun Park and Seunghyun Yoon and Trung Bui and Franck Dernoncourt and Sungmin Cha and Minjoon Seo},
   year={2026},
