@@ -6,5 +6,5 @@ inline: true
 related_posts: false
 ---
 
-AWS AI Lab  
+[AWS AI Lab](https://aws.amazon.com/ai/)  
 Applied Scientist Intern

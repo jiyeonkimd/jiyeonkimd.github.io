@@ -6,5 +6,5 @@ inline: true
 related_posts: false
 ---
 
-LG AI Research  
+[LG AI Research](https://www.lgresearch.ai)  
 Research Intern
